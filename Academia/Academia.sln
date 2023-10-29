@@ -3,9 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Aplication", "1.Aplication", "{74945984-F7F3-4E70-819B-BC0E96F8B3D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{8FBC2625-91C9-4BC1-BF9C-263C756B345C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Reposytorios", "3.Reposytorios", "{9C8E300A-3C95-43BE-A466-C1274DC7A2D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infra", "4.Infra", "{B33DF89D-22DA-4BE5-9476-D7085AFA4BE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1Data", "4.1Data", "{39C3C4C8-906B-4D6D-B626-198642BA36D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2CrossCutting", "4.2CrossCutting", "{E1B66C8D-0A82-4A6F-A48E-D7D184601100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "academia.infra.data", "academia.infra.data\academia.infra.data.csproj", "{2A5F30A2-CBC5-46DA-8EFF-D80A555EEBED}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A5F30A2-CBC5-46DA-8EFF-D80A555EEBED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5F30A2-CBC5-46DA-8EFF-D80A555EEBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5F30A2-CBC5-46DA-8EFF-D80A555EEBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5F30A2-CBC5-46DA-8EFF-D80A555EEBED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39C3C4C8-906B-4D6D-B626-198642BA36D9} = {B33DF89D-22DA-4BE5-9476-D7085AFA4BE5}
+		{E1B66C8D-0A82-4A6F-A48E-D7D184601100} = {B33DF89D-22DA-4BE5-9476-D7085AFA4BE5}
+		{2A5F30A2-CBC5-46DA-8EFF-D80A555EEBED} = {39C3C4C8-906B-4D6D-B626-198642BA36D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {222F6BE1-C2EA-43A8-B37E-E670F1BB9746}
