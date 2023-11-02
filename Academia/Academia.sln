@@ -15,7 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1Data", "4.1Data", "{39C3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2CrossCutting", "4.2CrossCutting", "{E1B66C8D-0A82-4A6F-A48E-D7D184601100}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "academia.infra.data", "academia.infra.data\academia.infra.data.csproj", "{2A5F30A2-CBC5-46DA-8EFF-D80A555EEBED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "academia.infra.data", "academia.infra.data\academia.infra.data.csproj", "{2A5F30A2-CBC5-46DA-8EFF-D80A555EEBED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codiconaveia.academia.Dominio", "codiconaveia.academia.Dominio\codiconaveia.academia.Dominio.csproj", "{20E62838-0718-482C-B8B2-E2A1803B288D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entitis", "Entitis", "{B50E4607-CE04-4056-85B8-A6C94D1C0191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codigonaveia.academia.Application", "codigonaveia.academia.Application\codigonaveia.academia.Application.csproj", "{3A5F6161-B413-4908-96E7-5117756E7E0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,14 @@ Global
 		{2A5F30A2-CBC5-46DA-8EFF-D80A555EEBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A5F30A2-CBC5-46DA-8EFF-D80A555EEBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A5F30A2-CBC5-46DA-8EFF-D80A555EEBED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E62838-0718-482C-B8B2-E2A1803B288D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E62838-0718-482C-B8B2-E2A1803B288D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E62838-0718-482C-B8B2-E2A1803B288D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E62838-0718-482C-B8B2-E2A1803B288D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5F6161-B413-4908-96E7-5117756E7E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5F6161-B413-4908-96E7-5117756E7E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5F6161-B413-4908-96E7-5117756E7E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5F6161-B413-4908-96E7-5117756E7E0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +49,9 @@ Global
 		{39C3C4C8-906B-4D6D-B626-198642BA36D9} = {B33DF89D-22DA-4BE5-9476-D7085AFA4BE5}
 		{E1B66C8D-0A82-4A6F-A48E-D7D184601100} = {B33DF89D-22DA-4BE5-9476-D7085AFA4BE5}
 		{2A5F30A2-CBC5-46DA-8EFF-D80A555EEBED} = {39C3C4C8-906B-4D6D-B626-198642BA36D9}
+		{20E62838-0718-482C-B8B2-E2A1803B288D} = {8FBC2625-91C9-4BC1-BF9C-263C756B345C}
+		{B50E4607-CE04-4056-85B8-A6C94D1C0191} = {8FBC2625-91C9-4BC1-BF9C-263C756B345C}
+		{3A5F6161-B413-4908-96E7-5117756E7E0F} = {74945984-F7F3-4E70-819B-BC0E96F8B3D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {222F6BE1-C2EA-43A8-B37E-E670F1BB9746}
